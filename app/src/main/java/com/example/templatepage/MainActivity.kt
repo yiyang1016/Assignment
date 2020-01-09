@@ -9,6 +9,7 @@ import android.widget.Toast
 import android.widget.Toolbar
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
+import com.example.loginsignup.loginRequest
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
 import kotlinx.android.synthetic.main.activity_main.*
@@ -31,6 +32,10 @@ class MainActivity : AppCompatActivity(){
                 startActivity(Intent(this, requestActivity::class.java))
                 return@OnNavigationItemSelectedListener true
             }
+            R.id.login_register->{
+                startActivity(Intent(this, loginRequest::class.java))
+                return@OnNavigationItemSelectedListener true
+            }
         }
         return@OnNavigationItemSelectedListener false
     }
@@ -51,7 +56,7 @@ class MainActivity : AppCompatActivity(){
         val id = item.getItemId()
 
         if (id == R.id.sign_out) {
-            Toast.makeText(this, "Sign Our Soon......", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Sign Out successful", Toast.LENGTH_LONG).show()
             return true
         }
         if (id == R.id.report) {

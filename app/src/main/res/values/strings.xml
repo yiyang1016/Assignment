@@ -10,4 +10,16 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="r">Thank You For Your Report. We are apologize of the missed collected rubbish. We will clean it as fast as possible. \n Thank You</string>
     <string name="request_successful">Request Successful</string>
+
+    <!--for login and register-->
+    <string name="textView">ID Number:  </string>
+    <string name="textView2">Password:  </string>
+    <string name="textView3">Name:  </string>
+    <string name="textView6">Address:  </string>
+    <string name="editText7">ID Number</string>
+    <string name="editText4">Password</string>
+    <string name="button">Login</string>
+    <string name="button2">Sign Up</string>
+    <string name="button3">Register</string>
+    <string name="button4">Clear</string>
 </resources>

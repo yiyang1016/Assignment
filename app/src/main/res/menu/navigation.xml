@@ -19,4 +19,8 @@
         android:checkable="false"
         android:icon="@drawable/request"
         android:title="Request" />
+    <item
+        android:id="@+id/login_register"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="Login / Registration" />
 </menu>
